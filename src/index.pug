@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Document
+  body 
+    section#interface
+      p.label 経過時間
+      p <span id = timer> 0:00 </span>
+      p.label 音が鳴った回数
+      p <span id ="soundCounter">0</span> 回
+    section#description 
+      p spaceでスタート、20秒ごとに音がなります
+  script(src = "./index.js")
